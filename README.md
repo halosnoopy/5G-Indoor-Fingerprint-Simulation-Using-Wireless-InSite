@@ -4,6 +4,8 @@
 This project presents a simulation-based framework for generating **5G fingerprint datasets** using **Wireless InSite**, a high-fidelity ray-tracing simulator.  
 The goal is to build realistic datasets for indoor positioning and localization research by modeling multipath propagation, antenna patterns, and 3D indoor structures under realistic 5G scenarios.
 
+<img width="1404" height="891" alt="image" src="https://github.com/user-attachments/assets/92dac1b5-e840-485f-bcb2-eb492f66c4e9" />
+
 The repository includes:
 - **Wireless InSite simulation setups** for dataset generation,  
 - **Processed fingerprint data** (RSRP, RSSI, AoD, etc.),  
@@ -91,4 +93,7 @@ It is organized as follows:
 ├── rsprocess.m # Utility function used by `getfeatures.m` for RSS/RSRP data transformation. 
 
 ├── fulldata.m # Assembles the full dataset for machine learning
+
+<img width="2520" height="1038" alt="image" src="https://github.com/user-attachments/assets/f4a1f437-eb45-4b9b-9214-8f0fd74959fe" />
+
 
