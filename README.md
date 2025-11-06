@@ -82,9 +82,9 @@ It is organized as follows:
 
 ├── features/ # Feature data extracted by getfeatures.m
 
-├── getaod.m # Extracts the **Angle of Departure (AoD)** data from raw simulation results.
+├── getaod.m # Extracts the AoD data from raw simulation results.
 
-├── getfeatures.m # Extracts the **signal features** (e.g., RSRP, RSSI, path delay) from simulation files.
+├── getfeatures.m # Extracts the signal features (e.g., RSRP, RSSI, path delay) from simulation files.
 
 ├── aodprocess.m # Utility function used by `getaod.m` for processing AoD-related parameters.
 
